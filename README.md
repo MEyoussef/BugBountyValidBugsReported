@@ -21,4 +21,4 @@ and manually change the endpoint to target a specific lead like
 
 `GET /ember/users/[victim_user_id]?app_id=XXXXX HTTP/2`
 
-and send it, you get **200 OK** and the full sensitive data of that lead, bypassing permissions completely.
+and send it, you get **200 OK** and the full sensitive data of that lead, bypassing permissions completely. This issue was rated as P3 and I received 5 points and my friend received 5 points with a $900 bounty ($450 each).
